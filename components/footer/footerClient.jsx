@@ -45,7 +45,8 @@ const FooterClient = () => {
                         {/* Logo */}
                         <div className="mb-6 md:mb-0">
                             <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-                                <img src="/novatech-logo.jpg" alt="Novatech PVC" className="h-12 w-auto border-r-[12px] border-r-white" />
+                                {/* <img src="/novatech-logo.jpg" alt="Novatech PVC" className="h-12 w-auto border-r-[12px] border-r-white" /> */}
+                                <span className="text-2xl font-bold text-white">VERAPLASTPVC</span>
                             </Link>
                         </div>
                         
@@ -56,11 +57,11 @@ const FooterClient = () => {
                                 <a href="tel:+905456779025" className="text-gray-300 hover:text-white transition-colors">+90 545 677 90 25</a>
                                 <p className="text-sm text-gray-400 mt-1">İletişim numarasını kullanarak bizlerle iletişime geçebilirsiniz</p>
                             </div>
-                            <div>
+                            {/* <div>
                                 <h4 className="text-lg font-bold">E-Posta:</h4>
                                 <a href="mailto:info@novatechpvc.com.tr" className="text-gray-300 hover:text-white transition-colors">info@novatechpvc.com.tr</a>
                                 <p className="text-sm text-gray-400 mt-1">Dilerseniz taleplerinizi e-posta yoluyla iletebilirsiniz</p>
-                            </div>
+                            </div> */}
                         </div>
                         
                         {/* Sosyal Medya İkonları */}
@@ -138,7 +139,7 @@ const FooterClient = () => {
                         <div className="space-y-2 text-gray-300">
                             <p className="text-sm">Güzelburç Mahallesi – Antakya/HATAY</p>
                             <p className="text-sm"><a href="tel:+905456779025" className="text-gray-300 hover:text-white transition-colors">+90 545 677 90 25</a></p>
-                            <p className="text-sm"><a href="mailto:info@novatechpvc.com.tr" className="text-gray-300 hover:text-white transition-colors">info@novatechpvc.com.tr</a></p>
+                            {/* <p className="text-sm"><a href="mailto:info@novatechpvc.com.tr" className="text-gray-300 hover:text-white transition-colors">info@novatechpvc.com.tr</a></p> */}
                         </div>
                     </div>
                 </div>

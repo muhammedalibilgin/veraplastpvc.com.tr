@@ -1,5 +1,5 @@
 import { easyslide } from '@/lib/products/easyslide';
-import ProductCard from '@/components/static-novatech/productList/productCard';
+import ProductCard from '@/components/static-veraplast/productList/productCard';
 import Container from '@/components/ui/container';
 
 export default function ProductsPage() {

@@ -32,7 +32,8 @@ export default function IletisimPage() {
             </li>
 
             {/* Email */}
-            <li>
+
+            {/* <li>
               <div className="a flex items-start space-x-4">
                 <img src="/Icon_Mail.png" alt="Mail icon" className="w-8 h-8 lg:w-10 lg:h-10" />
                 <span className="text-lg font-semibold text-gray-800">
@@ -40,7 +41,8 @@ export default function IletisimPage() {
                   <span className="block text-sm text-gray-600 mt-2">Dilerseniz e-posta ile soru ya da önerilerinizi bizimle paylaşın.</span>
                 </span>
               </div>
-            </li>
+            </li> */}
+
           </ul>
         </div>
       </div>
@@ -52,7 +54,7 @@ export default function IletisimPage() {
             {/* Left Side - Address and Social Media */}
             <div className="contact-bottom-left">
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Novatech PVC İletişim Bilgileri</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">VERAPLASTPVC İletişim Bilgileri</h3>
                 
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -60,10 +62,10 @@ export default function IletisimPage() {
                     <p className="text-gray-700">Güzelburç Mahallesi – Antakya/HATAY</p>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
+                  {/* <div className="flex items-start space-x-3">
                     <svg width="16" height="16" fill="#f07c01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="mt-1"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                     <a href="mailto:info@novatechpvc.com.tr" className="">info@novatechpvc.com.tr</a>
-                  </div>
+                  </div> */}
                   
                   <div className="flex items-start space-x-3">
                     <svg width="16" height="16" fill="#f07c01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="mt-1"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.7L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.7-46.3l-40-96z"/></svg>

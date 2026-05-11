@@ -27,13 +27,13 @@ const montserrat = Montserrat({
     display: "swap",
 });
 export const metadata = {
-    title: "PVC Kapı ve Pencere Sistemleri | Novatech PVC - Türkiye'nin Lider PVC Üreticisi",
-    description: "Novatech PVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
-    keywords: ["PVC Kapı", "PVC Pencere", "Novatechpvc Pencere Kapı", "PVC Kapı ve Pencere", "PVC Kapı ve Pencere Sistemleri", "PVC Kapı ve Pencere Sistemleri Türkiye", "novatech pvc", "enerji verimli pencere", "modern PVC kapı"],
-    authors: [{ name: "Novatech PVC" }],
-    creator: "Novatech PVC",
-    publisher: "Novatech PVC",
-    metadataBase: new URL('https://novatechpvc.com.tr'),
+    title: "PVC Kapı ve Pencere Sistemleri | VERAPLASTPVC - Türkiye'nin Lider PVC Üreticisi",
+    description: "VERAPLASTPVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
+    keywords: ["PVC Kapı", "PVC Pencere", "VERAPLASTPVC Pencere Kapı", "PVC Kapı ve Pencere", "PVC Kapı ve Pencere Sistemleri", "PVC Kapı ve Pencere Sistemleri Türkiye", "veraplast pvc", "enerji verimli pencere", "modern PVC kapı"],
+    authors: [{ name: "VERAPLASTPVC" }],
+    creator: "VERAPLASTPVC",
+    publisher: "VERAPLASTPVC",
+    metadataBase: new URL('https://veraplastpvc.com.tr'),
     alternates: {
         canonical: '/',
         languages: {
@@ -42,16 +42,16 @@ export const metadata = {
         },
     },
     openGraph: {
-        title: "PVC Kapı ve Pencere Sistemleri | Novatech PVC",
-        description: "Novatech PVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
-        url: 'https://novatechpvc.com.tr',
-        siteName: 'Novatech PVC',
+        title: "PVC Kapı ve Pencere Sistemleri | VERAPLASTPVC",
+        description: "VERAPLASTPVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
+        url: 'https://veraplastpvc.com.tr',
+        siteName: 'VERAPLASTPVC',
         images: [
             {
                 url: '/og-image.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Novatech PVC Kapı ve Pencere Sistemleri',
+                alt: 'VERAPLASTPVC Kapı ve Pencere Sistemleri',
             },
         ],
         locale: 'tr_TR',
@@ -59,10 +59,10 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: "PVC Kapı ve Pencere Sistemleri | Novatech PVC",
-        description: "Novatech PVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
+        title: "PVC Kapı ve Pencere Sistemleri | VERAPLASTPVC",
+        description: "VERAPLASTPVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
         images: ['/twitter-image.jpg'],
-        creator: '@novatechpvc',
+        creator: '@veraplastpvc',
     },
     robots: {
         index: true,

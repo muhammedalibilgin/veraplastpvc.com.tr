@@ -7,10 +7,10 @@ import ContainerFluid from "@/components/ui/container-fluid";
 import getBlocks from "@/actions/get-blocks";
 // import BlockRenderer from "@/components/blocks/BlockRenderer";
 import SliderBlock from "@/components/blocks/types/SliderBlock";
-import Categories from "@/components/static-novatech/categories";
-import RightBanner from "@/components/static-novatech/RightBanner";
-import LeftBanner from "@/components/static-novatech/LeftBanner";
-// import StatisticsBanner from "@/components/static-novatech/StatisticsBanner";
+import Categories from "@/components/static-veraplast/categories";
+import RightBanner from "@/components/static-veraplast/RightBanner";
+import LeftBanner from "@/components/static-veraplast/LeftBanner";
+// import StatisticsBanner from "@/components/static-veraplast/StatisticsBanner";
 import { sliderData } from "@/lib/sliderData";
 
 export const revalidate = 60;

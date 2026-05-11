@@ -35,5 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-# cdn img
-https://designfast.io/toolkit/image-hosting
+# Image Hosting cdn (Eski)
+https://designfast.io/toolkit/image-hosting (Eski)
+
+Not: Bu proje artık Vercel Blob kullanıyor. Yukarıdaki designfast.io CDN'i eski kalmıştır. (YEni)

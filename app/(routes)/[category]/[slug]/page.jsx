@@ -68,7 +68,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${product.title} - Novatech PVC`,
+    title: `${product.title} - VERAPLASTPVC`,
     description: `${product.title} ${config.name.toLowerCase()} modelinin teknik özellikleri ve detayları.`,
   };
 }

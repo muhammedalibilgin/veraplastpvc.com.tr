@@ -1,6 +1,6 @@
 // app/sitemap.js
 export default function sitemap() {
-  const baseUrl = 'https://novatechpvc.com.tr';
+  const baseUrl = 'https://veraplastpvc.com.tr';
   
   const routes = [
     '',
