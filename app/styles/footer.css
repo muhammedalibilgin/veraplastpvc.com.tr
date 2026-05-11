@@ -1,0 +1,102 @@
+.footer-container {
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #374151;
+  }
+  .footer-wrapper {
+    max-width: 80rem; /* 1280px */
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  
+  /* BAŞLIK STİLLERİ */
+  .footer-section-title {
+    font-weight: 700;
+    font-size: 1.125rem; /* 18px */
+    margin-bottom: 1.5rem;
+    color: #111827;
+  }
+  
+  /* LİSTE STİLLERİ */
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-list-item {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-list-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  
+  .footer-list-desc {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  /* LINK STİLLERİ */
+  .footer-link {
+    color: #374151;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.75rem;
+    transition: color 0.2s;
+  }
+  
+  .footer-link:hover {
+    color: #1f2937;
+  }
+  
+  /* RESPONSIVE AYARLAR */
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* TELEFON NUMARALARI */
+  .footer-phone {
+    font-family: monospace;
+    letter-spacing: 0.05em;
+  }
+  .newsletter-input-wrapper{
+    position: relative;
+  }
+  .footer-newsletter .newsletter-input{
+    width: 100%;
+    border: 1px solid #000;
+    height: 45px;
+    padding: 12px;
+  }
+  .footer-newsletter .newsletter-input:focus-visible {
+    outline: none;
+  }
+  .footer-newsletter .newsletter-input:focus {
+    outline: none;
+  }
+  .footer-newsletter .newsletter-btn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 45px;
+    line-height: 45px;
+    padding: 10.5px 12px;
+    z-index: 1;
+    background: #000;
+    color: #fff;
+  }
+  .footer-newsletter p{
+    margin-bottom: 12px;
+  }

@@ -1,0 +1,111 @@
+.header {
+  background: #fff;
+  position: relative;
+  z-index: 39;
+}
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Logo */
+.logo a {
+  font-size: 32px;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Menü */
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a,
+.nav-list span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 0;
+}
+.nav-list > li > a,
+.nav-list > li.has-mega > span {
+    position: relative;
+}
+
+/* Hover alt çizgi */
+.nav-list > li > a::after,
+.nav-list > li.has-mega > span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background: #c71f16;
+  transition: width 0.3s ease;
+}
+
+.nav-list > li > a:hover::after,
+.nav-list > li.has-mega:hover > span::after,
+.nav-list > li.has-mega.active > span::after {
+  width: 100%;
+}
+
+/* Mega Menu */
+.has-mega .mega-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mega-menu {
+  position: absolute;
+  left: 24px;
+  /* top: 60px; */
+  top: 100px;
+  width: 900px;
+  background: #f8f8f8;
+  padding: 40px;
+  display: flex;
+  gap: 80px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.25s ease;
+  z-index: 41;
+}
+
+/* Mega sütunlar */
+.mega-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mega-column a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.mega-column a:hover {
+  color: #c71f16;
+}
+@media (min-width: 1024px) {
+    .nav-list > li{
+        margin-right: 6px;
+    }
+}
