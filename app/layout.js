@@ -28,6 +28,7 @@ const montserrat = Montserrat({
 });
 export const metadata = {
     title: "PVC Kapı ve Pencere Sistemleri | VERAPLASTPVC - Türkiye'nin Lider PVC Üreticisi",
+    favicon: '/favicon.ico',
     description: "VERAPLASTPVC olarak Türkiye'de yüksek kaliteli PVC kapı ve pencere sistemleri üretiyoruz. Enerji verimli, modern tasarımlı ve uzun ömürlü PVC çözümleri.",
     keywords: ["PVC Kapı", "PVC Pencere", "VERAPLASTPVC Pencere Kapı", "PVC Kapı ve Pencere", "PVC Kapı ve Pencere Sistemleri", "PVC Kapı ve Pencere Sistemleri Türkiye", "veraplast pvc", "enerji verimli pencere", "modern PVC kapı"],
     authors: [{ name: "VERAPLASTPVC" }],
